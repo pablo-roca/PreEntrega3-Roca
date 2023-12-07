@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    .section1{
+        display: flex;
+        padding: 20px auto;
+        margin: 10px;
+        .img-carrusel{
+            width: 600px;
+        }    
+    }
+    .section{
+        padding: 20px auto;
+        margin: 10px;
+        .div-img{
+            text-align: center;
+            .img-section{
+                border: double pink;
+                margin: 10px;
+                padding: 20px  auto;
+                width: 80%;
+                &:hover{
+                    border: white solid 2px;
+                }
+            }
+        }
+        
+    }
+}

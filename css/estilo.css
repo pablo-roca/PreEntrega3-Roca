@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  line-height: 2;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.048);
+  font-family: "Playpen Sans", cursive;
+}
+
+.header {
+  grid-area: header;
+  background-color: rgba(0, 0, 0, 0.411);
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+.header .logo {
+  text-align: start;
+  margin: 10px;
+  animation-name: animacion;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-delay: 0s;
+}
+.header .logo img {
+  width: 100px;
+}
+.header .titulo {
+  font-size: 1.2rem;
+  margin: 30px auto;
+  padding: 10px auto;
+}
+@keyframes animacion {
+  0% {
+    transform: rotateY(0deg);
+  }
+  25% {
+    transform: rotateY(90deg);
+  }
+  50% {
+    transform: rotateY(0deg);
+  }
+  75% {
+    transform: rotateY(90deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+
+.nav-li {
+  text-decoration: none;
+  color: white;
+  border-radius: 15%;
+  padding: 0.4rem;
+  font-size: 16px;
+}
+.nav-li:hover {
+  background-color: rgba(31, 31, 31, 0.548);
+  font-size: 17px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.main .section1 {
+  display: flex;
+  padding: 20px auto;
+  margin: 10px;
+}
+.main .section1 .img-carrusel {
+  width: 600px;
+}
+.main .section {
+  padding: 20px auto;
+  margin: 10px;
+}
+.main .section .div-img {
+  text-align: center;
+}
+.main .section .div-img .img-section {
+  border: double pink;
+  margin: 10px;
+  padding: 20px auto;
+  width: 80%;
+}
+.main .section .div-img .img-section:hover {
+  border: white solid 2px;
+}
+
+.section-historia .div-foto {
+  display: flex;
+  width: 60vw;
+  margin: 10px auto;
+}
+.section-historia .div-foto .img2 {
+  border: double pink;
+  margin: 10px;
+  width: 100%;
+}
+.section-historia .div-foto .img2:hover {
+  opacity: 1;
+  border: white solid 2px;
+}
+
+.div-historia {
+  padding: 20px auto;
+  margin: 30px;
+}
+
+.galeria-h1 {
+  text-align: center;
+  color: white;
+}
+
+.mainGaleria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.mainGaleria div {
+  width: 550px;
+  height: 370px;
+  display: flex;
+}
+.mainGaleria div .imgGaleria {
+  border: double pink;
+  opacity: 0.5;
+  margin: 10px;
+  width: 100%;
+}
+.mainGaleria div .imgGaleria:hover {
+  opacity: 1;
+  border: white solid 2px;
+  transform: scale(1.1, 1.1);
+}
+
+.footer {
+  background-color: rgb(0, 0, 0);
+  height: 100px;
+  display: flex;
+}
+.footer h3 {
+  font-size: 1.2rem;
+  display: inline-block;
+  justify-content: space-evenly;
+  margin: 40px auto;
+}
+
+#video-background {
+  position: fixed;
+  height: 100vh;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: -1;
+}
+
+.center {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .main .section1 {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

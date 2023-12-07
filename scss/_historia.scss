@@ -1,0 +1,22 @@
+
+.section-historia{
+    .div-foto{
+        display: flex;
+        width: 60vw;
+        margin: 10px auto;
+        .img2{
+            border: double pink;
+            margin: 10px;
+            width: 100%;
+            &:hover{
+                opacity: 1;
+                border: white solid 2px;
+            }
+        }
+        
+    }
+}
+.div-historia{
+    padding: 20px auto;
+    margin: 30px;
+}

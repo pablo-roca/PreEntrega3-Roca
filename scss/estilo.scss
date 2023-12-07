@@ -1,0 +1,22 @@
+@import "_reset";
+@import "_body";
+@import "_header";
+@import "_nav";
+@import "_main";
+@import "_historia";
+@import "_galeria";
+@import "_footer";
+@import "_video-bg";
+
+.center{
+    text-align: center;
+}
+
+@media screen and (max-width:768px){
+    .main{
+        .section1{
+            display: block;    
+        }
+    }
+    
+  }

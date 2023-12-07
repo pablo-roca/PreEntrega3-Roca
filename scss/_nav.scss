@@ -1,0 +1,11 @@
+.nav-li{
+    text-decoration: none;
+    color: white;
+    border-radius: 15%;
+    padding: 0.4rem;
+    font-size: 16px;
+    &:hover{
+        background-color:rgba(31, 31, 31, 0.548);
+        font-size: 17px;
+    }
+}

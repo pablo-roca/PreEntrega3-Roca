@@ -1,0 +1,26 @@
+.galeria-h1{
+    text-align: center;
+    color: white;
+}
+.mainGaleria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    div{
+        width: 550px;
+        height: 370px;
+        display: flex;
+        .imgGaleria{
+            border: double pink;
+            opacity: 0.5;
+            margin: 10px;
+            width: 100%;
+            &:hover{
+                opacity: 1;
+                border: white solid 2px;
+                transform: scale(1.1, 1.1);
+            }
+        }
+    }
+
+}
